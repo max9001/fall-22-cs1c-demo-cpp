@@ -17,6 +17,7 @@ void addNumberXTimes(int a, int b){
         a += a;
         count++;
         if (a*b == a){
+            cout << a;
             break;
         }
     }
