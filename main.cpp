@@ -1,7 +1,6 @@
-#include <iostream>
 
-// namespace standard 
-using namespace std;
+//import necessary files
+#include "addNumbers.h"
 
 // Function: main
 int main()
@@ -9,7 +8,8 @@ int main()
     // Print "Hello, World!" to the console
     cout << "Hello World!" << endl;
 
-    //now create an add numbers function
+    //now call add numbers function
+    addNumbers(1, 2); 
 
     // Exits the program
     return 0;
