@@ -12,13 +12,10 @@ void addNumbers(int a, int b){
 }
 
 void addNumberXTimes(int a, int b){
-    int count = 0;
-    while (true) {
-        a += a;
-        count++;
-        if (a*b == a){
-            cout << a;
-            break;
-        }
+    int hold = a;
+    for (int i = 1; i < b; i++) {
+        a += hold;
+        cout << hold << " + ";
     }
+    cout << hold << " = " << a << endl;
 }

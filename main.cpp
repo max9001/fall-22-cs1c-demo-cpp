@@ -11,6 +11,7 @@ int main()
     //now call add numbers function
     addNumbers(1, 2); 
 
+    //now call add number x times function
     addNumberXTimes(3, 10);
 
     // Exits the program
