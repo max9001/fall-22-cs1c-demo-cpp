@@ -11,6 +11,8 @@ int main()
     //now call add numbers function
     addNumbers(1, 2); 
 
+    addNumberXTimes(3, 10);
+
     // Exits the program
     return 0;
 }
