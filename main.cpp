@@ -1,6 +1,7 @@
 
 //import necessary files
 #include "addNumbers.h"
+#include "subtractNumbers.h"
 
 // Function: main
 int main()
@@ -14,6 +15,9 @@ int main()
     //now call add number x times function
     addNumberXTimes(3, 10);
 
+    //now call subtract numbers function
+    subtractNumbers(9,7);
+    
     // Exits the program
     return 0;
 }
